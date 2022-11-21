@@ -1,0 +1,12 @@
+/* styles.css */
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    border: 1px solid black;
+    display: block;
+}
+/* Add styles here to customize the appearance of your app */
