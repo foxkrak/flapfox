@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
-    <link href="./styles.css" rel="stylesheet">
-    <title>FlapBird - FPS: ??</title>
-  </head>
-  <body>
-    <canvas></canvas>
-    <script type="module" src="./game.js"></script>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .cvs {
+            border: 1px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+    </style>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <canvas class="cvs" width="590" height="590"></canvas>
+    <script src="javascript.js"></script>    
+</body>
 </html>
